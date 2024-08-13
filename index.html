@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gthierry - Personal Portfolio</title>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/9.10.0/simple-icons.min.css">
+
   <!--
     - favicon
   -->
@@ -448,42 +451,50 @@
         -->
 
         <section class="clients">
-
-          <h3 class="h3 clients-title">Toolsx</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/tools/tool (1).png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/tools/tool (2).png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/tools/tool (3).png" alt="client logo">
-              </a>
-            </li>
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/tools/tool (5).png" alt="client logo">
-              </a>
-            </li>
+          <h3 class="h3 clients-title">Toolsx</h3><br>
+          <marquee behavior="scroll" direction="left" scrollamount="4">
+            <div class="skillz"><i class="fab fa-css3-alt"></i> CSS</div>
+            <div class="skillz"><i class="fab fa-js-square"></i> Tailwind CSS</div>
+            <div class="skillz"><i class="fab fa-html5"></i> HTML</div>
+            <div class="skillz"><i class="fab fa-react"></i> React JS</div>
+            <!-- <div class="skill"><i class="si si-mongodb"></i> MongoDB</div>
+            <div class="skill"><i class="si si-next-dot-js"></i> Next JS</div> -->
+            <div class="skillz"><i class="fab fa-git-alt"></i> Git & Github</div>
+            <div class="skillz"><i class="fab fa-js"></i> JavaScript</div>
+            <div class="skillz"><i class="fab fa-node-js"></i> Node JS</div>
+            <div class="skillz"><i class="fab fa-wordpress"></i> WordPress</div>
+            <div class="skillz"><i class="si si-framer"></i> Framer</div>
+            <div class="skillz"><i class="si si-bubble"></i> Bubble</div>
+            <div class="skillz"><i class="fab fa-figma"></i> Figma</div>
+            <div class="skillz"><i class="fab fa-elementor"></i> Elementor</div>
+            <div class="skillz"><i class="fab fa-php"></i> PHP</div>
+            <div class="skillz"><i class="fas fa-database"></i> SQL</div> 
+          </marquee>
  
+          <style>
+          .skillz {
+           display: inline-flex;
+           align-items: center;
+           background-color: #333;
+           color: #fff;
+           padding: 10px 15px;
+           border-radius: 10px;
+           font-size: 14px;
+           font-weight: 500;
+           margin-right: 10px;
+           transition: background-color 0.3s;
+           }
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/tools/tool (7).png" alt="client logo">
-              </a>
-            </li>
+          .skillz i {
+           margin-right: 8px;
+           font-size: 18px;
+          }
 
-          </ul>
+          .skillz:hover {
+              background-color: #444;
+          }
+
+         </style>
 
         </section>
 
